@@ -1,0 +1,4 @@
+baseURL = 'https://ykhatri.dev/'
+languageCode = 'en-us'
+title = 'Yougeshwar Khatri'
+theme = ["PaperMod"]
