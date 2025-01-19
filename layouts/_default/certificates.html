@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section id="certifications" class="certificates-section">
+  <article class="post-single">
+    <header class="post-header">
+      <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    </header>
+    <div class="post-content">
+      {{ .Content }}
+      <div class="certificates-list">
+        {{ range site.Data.certifications.certifications }}
+        <div class="certificate-item">
+          <div class="certificate-image">
+            <img src="{{ .image }}" alt="{{ .title }}">
+          </div>
+          <div class="certificate-details">
+            <div class="certificate-row">
+              <strong>Name:</strong> {{ .title }}
+            </div>
+            <div class="certificate-row">
+              <strong>Issuer:</strong> {{ .issuer }}
+            </div>
+            <div class="certificate-row">
+              <strong>Issuer Date:</strong> {{ .issuer_date }}
+            </div>
+            <div class="certificate-row">
+              <strong>Expiry Date:</strong> {{ .expiry_date }}
+            </div>
+            <div class="certificate-row">
+              <strong>URL:</strong>
+              <a href="{{ .url }}" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+</section>
+{{ end }}

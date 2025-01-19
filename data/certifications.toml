@@ -1,0 +1,23 @@
+[[certifications]]
+title = "AWS Certified Security – Specialty"
+issuer = "Amazon Web Services"
+issuer_date = "December 29, 2024"
+expiry_date = "December 29, 2027"
+url = "https://www.credly.com/badges/b2427880-e3d6-4f5d-9716-92b20e666e26"
+image = "/images/aws-certified-security-specialty.png"
+
+[[certifications]]
+title = "HashiCorp Certified: Terraform Associate (003)"
+issuer = "HashiCorp"
+issuer_date = "September 12, 2024"
+expiry_date = "September 12, 2026"
+url = "https://www.credly.com/badges/833ed6c7-153c-49bc-acd9-6c03f30e2a89"
+image = "/images/terraform-associate-003.png"
+
+[[certifications]]
+title = "AWS Certified Solutions Architect – Associate"
+issuer = "Amazon Web Services"
+issuer_date = "December 30, 2023"
+expiry_date = "December 30, 2026"
+url = "https://www.credly.com/badges/82ef4c68-d55f-42ac-b94d-3decfa3aeb49"
+image = "/images/aws-certified-solutions-architect-associate.png"
