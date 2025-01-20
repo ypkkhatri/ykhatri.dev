@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ykhatri.dev/about/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/categories/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/certs/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/contact/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/posts/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/search/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/tags/</loc>
+  </url><url>
+    <loc>https://ykhatri.dev/</loc>
+  </url>
+</urlset>
